@@ -1,6 +1,6 @@
 # throwaway-dotnet9-elsa-workflows
 
-I'm experimenting with encapsulating a saga in C# code.
+I'm experimenting with encapsulating a saga within a microservice.
 
 This saga is a mini-saga that happens as part of a longer running process of onboarding a broadband customer.
 
