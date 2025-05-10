@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc.Testing;
 namespace ElsaWeb.Tests.Workflows;
 
 [TestFixture]
-public class ValidateOpeningReadTests
+public class SignUpTests
 {
     private WebApplicationFactory<Program> _factory = null!;
     private HttpClient _client = null!;

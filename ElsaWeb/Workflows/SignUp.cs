@@ -6,7 +6,7 @@ using Endpoint = Elsa.Workflows.Activities.Flowchart.Models.Endpoint;
 
 namespace ElsaWeb.Workflows;
 
-public class ValidateOpeningRead : WorkflowBase
+public class SignUp : WorkflowBase
 {
     protected override void Build(IWorkflowBuilder builder)
     {

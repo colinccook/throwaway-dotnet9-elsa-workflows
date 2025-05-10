@@ -7,7 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddElsa(elsa =>
 {
     elsa.AddWorkflow<HttpHelloWorld>();
-    elsa.AddWorkflow<ValidateOpeningRead>();
+    elsa.AddWorkflow<SignUp>();
     elsa.UseHttp();
 
 });
